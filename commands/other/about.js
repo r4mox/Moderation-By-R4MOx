@@ -13,7 +13,7 @@ module.exports = class WhoMadeMeCommand extends Command {
 
   run(message) {
     message.channel.send(
-      'Name Bot: . Guild & User . Made By: .'
+      'Name Bot: . Guild & User: ~~«On ${this.client.guilds.cache.size} servers, with a total of ${memberCount} users»~~ . Made By: .'
     );
   }
 };

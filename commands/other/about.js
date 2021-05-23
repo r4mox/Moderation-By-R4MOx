@@ -13,14 +13,7 @@ module.exports = class WhoMadeMeCommand extends Command {
 
   run(message) {
     message.channel.send(
-      '◈ ━━━━━━━━ 🤖 ━━━━━━━━◈
-> Inforimation
-> 
-> Bot Name:
-> 
-> Server And User:
-> 
-> Made By:'
+      'Name Bot: . Guild & User . Made By: .'
     );
   }
 };

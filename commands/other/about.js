@@ -13,7 +13,14 @@ module.exports = class WhoMadeMeCommand extends Command {
 
   run(message) {
     message.channel.send(
-      'Made By MrRobot'
+      '◈ ━━━━━━━━ 🤖 ━━━━━━━━◈
+> Inforimation
+> 
+> Bot Name:
+> 
+> Server And User:
+> 
+> Made By:'
     );
   }
 };

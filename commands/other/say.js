@@ -33,7 +33,7 @@ module.exports = class SayCommand extends Command {
       .setDescription(text)
       .setTimestamp()
       .setFooter(
-        `${message.member.displayName}, made me say it!`,
+        ``,
         message.author.displayAvatarURL()
       );
 

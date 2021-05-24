@@ -1,6 +1,14 @@
 {
-  "prefix": "*",
+  "invite": "",
+  "prefix": "@",
   "discord_owner_id": "Your-Discord-ID",
-  "token": "ODQzMDQ0NDUyNjc5NTQ4OTY5.YJ-IVA.xT6a9gcUp83Qa4EHyfr63DojOaU",
-  "youtubeAPI": "AIzaSyD3c38MZriadJIdyPSj6ngQ-Q3nM9WIAqE"
+  "token": "",
+  "youtubeAPI": "",
+  "geniusLyricsAPI": "genius-api-key",
+  "tenorAPI": "tenor-API-key",
+  "newsAPI": "news-api-key",
+  "twitchClientID": "Your-Client-ID",
+  "twitchClientSecret": "Your-Client-Secret",
+  "rawgAPI": "rawg-api-key"
+
 }

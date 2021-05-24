@@ -13,7 +13,7 @@ module.exports = class WhoMadeMeCommand extends Command {
 
   run(message) {
     message.channel.send(
-      '\`\`\`diff For Any Quesstion About This Bot Send Message For @Ness・MrRobotᵇʰ#6067 On Dm\`\`\`'
+      '\`\`\`For Any Quesstion About This Bot Send Message For [@Ness・MrRobotᵇʰ#6067] On Dm\`\`\`'
     );
   }
 };

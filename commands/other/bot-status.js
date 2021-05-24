@@ -72,11 +72,6 @@ module.exports = class BotStatusCommand extends Command {
         'Servers, Users',
         `On ${this.client.guilds.cache.size} servers, with a total of ${memberCount} users.`
       )
-      .addField(
-        'Dependency List',
-        `node: ${process.version.replace(/v/, '')}
-        ${libList}`
-      )
       .setFooter('Created', this.client.user.avatarURL())
       .setTimestamp(this.client.user.createdAt);
 

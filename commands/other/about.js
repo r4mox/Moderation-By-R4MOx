@@ -13,7 +13,7 @@ module.exports = class WhoMadeMeCommand extends Command {
 
   run(message) {
     message.channel.send(
-      'Name Bot: . Guild & User: ${client.guilds.cache.size}'
+      '\`\`\`diff For Any Quesstion About This Bot Send Message For @Ness・MrRobotᵇʰ#6067 On Dm\`\`\`'
     );
   }
 };

@@ -28,8 +28,8 @@ module.exports = class SayCommand extends Command {
 
   run(message, { channel_name, text }) {
     const embed = new MessageEmbed()
-      .setTitle(`Just wanted to say...`)
-      .setColor('#888888')
+      .setTitle(``)
+      .setColor('#RANDOM')
       .setDescription(text)
       .setTimestamp()
       .setFooter(

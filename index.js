@@ -232,3 +232,46 @@ client.on('guildMemberAdd', async member => {
 });
 
 client.login(token);
+
+client.on("message", message => {
+  if (message.content.startsWith(PREFIX + "animal")) {
+    let man = [
+      "https://cdn.discordapp.com/attachments/608711488806584330/823219504578166834/Gif_Pack_-_HostleCreative_73.gif",
+      "https://cdn.discordapp.com/attachments/737807699412254811/788719341650051082/image0.gif",
+      "https://cdn.discordapp.com/attachments/659108301690372108/753036329700556820/hym.gif",
+      "https://cdn.discordapp.com/attachments/608711488806584330/827973064956051476/c9e8306166bf97a20f14fc6093861d8c.gif",
+      "https://cdn.discordapp.com/attachments/608711488806584330/809648267091771392/image1.gif",
+      "https://cdn.discordapp.com/attachments/737807699412254811/801938698412621844/image1.gif",
+      "https://cdn.discordapp.com/attachments/608711488806584330/832917963061461042/291359420049201.gif",
+      "https://cdn.discordapp.com/attachments/659108301690372108/782973562251378718/oxytyche_17.gif",
+      "https://cdn.discordapp.com/attachments/608711488806584330/823559629475807232/1464342173-cute-puppy-gif.gif",
+      "https://cdn.discordapp.com/attachments/737807699412254811/791927311342632980/image0.gif",
+      "https://cdn.discordapp.com/attachments/737807699412254811/791681658532266024/image0.gif",
+      "https://cdn.discordapp.com/attachments/737807699412254811/801939015061602344/image0.gif",
+      "https://cdn.discordapp.com/attachments/737807699412254811/791927410131206164/image0.gif",
+      "https://cdn.discordapp.com/attachments/608711488806584330/812304250247970856/tenor_73.gif",
+      "https://cdn.discordapp.com/attachments/737807699412254811/780698342991593482/image0.gif",
+      "https://cdn.discordapp.com/attachments/659108301690372108/785123256813617172/dvBgr7pA6FTJOMOALY.gif",
+      "https://cdn.discordapp.com/attachments/737807699412254811/750275296024068156/image0.gif",
+      "https://cdn.discordapp.com/attachments/737807699412254811/791927203671310366/image0.gif",
+      "https://cdn.discordapp.com/attachments/659108301690372108/830922706945441892/7223f242debe0af5ac2ab1b9b1dce93a-5.gif",
+      "https://cdn.discordapp.com/attachments/737807699412254811/791681662910988298/image0.gif"
+    ];
+
+    message.channel
+      .send({
+        embed: {
+          description: `**Gif Animal**`,
+          footer: `Requested by ${message.author.username}`,
+          color: `#FFF712`,
+          image: {
+            url: man[Math.floor(Math.random() * man.length)]
+          }
+        }
+      })
+
+.catch(e => {
+        client.log.error(e);
+      });
+  }
+});

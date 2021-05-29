@@ -1,8 +1,8 @@
 {
-  "invite": "https://discord.com/api/oauth2/authorize?client_id=843045486256455680&permissions=8&scope=bot",
+  "invite": "",
   "prefix": ">",
-  "discord_owner_id": "749659830809002014",
-  "token": "ODQzMDQ1NDg2MjU2NDU1Njgw.YJ-JSg.Ar-KM7K71a_odPKan1UUXIVbn14",
+  "discord_owner_id": "",
+  "token": "",
   "youtubeAPI": "AIzaSyD3c38MZriadJIdyPSj6ngQ-Q3nM9WIAqE",
   "geniusLyricsAPI": "genius-api-key",
   "tenorAPI": "tenor-API-key",
